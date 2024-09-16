@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondary">#747474</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="_10ssp">10sp</dimen>
+    <dimen name="_12sdp">12dp</dimen>
+    <dimen name="_13sdp">13sp</dimen>
+    <dimen name="_20sdp">20dp</dimen>
+    <dimen name="_24sdp">24dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_4sdp">4dp</dimen>
+    <string name="app_name">BlueChat</string>
+    <string name="send">SEND</string>
+    <string name="str_available_devices">Available Devices</string>
+    <string name="str_menu_bluetooth_on"/>
+    <string name="str_menu_scan_devices">Scan Devices</string>
+    <string name="str_menu_search_devices"/>
+    <string name="str_paired_devices">Paired Devices</string>
+    <string name="type_here">Type a message…</string>
+    <style name="Theme.BlueChat" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+    </style>
+</resources>

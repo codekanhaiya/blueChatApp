@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluechat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:6:5-68
+11-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:7:5-74
+12-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:7:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+13-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:8:5-78
+13-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:8:22-75
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:10:5-79
+15-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:11:5-85
+16-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:11:22-82
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:12:5-76
+17-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:12:22-73
+18    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+18-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:13:5-73
+18-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:13:22-70
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.bluechat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.bluechat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:15:5-40:19
+27        android:allowBackup="true"
+27-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\kanha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:17:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:18:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:22:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.BlueChat" >
+38-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:23:9-46
+39        <activity
+39-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:25:9-29:15
+40            android:name="com.example.bluechat.DeviceListActivity"
+40-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:26:13-47
+41            android:exported="false"
+41-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:27:13-37
+42            android:label="BlueChat" />
+42-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:28:13-37
+43        <activity
+43-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:30:9-39:20
+44            android:name="com.example.bluechat.MainActivity"
+44-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:31:13-41
+45            android:exported="true"
+45-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:32:13-36
+46            android:label="BlueChat" >
+46-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:33:13-37
+47            <intent-filter>
+47-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:35:13-38:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:36:17-69
+48-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:36:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:37:17-77
+50-->D:\AndroidStudioProjects\BlueChat\app\src\main\AndroidManifest.xml:37:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.bluechat.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kanha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kanha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kanha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kanha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
