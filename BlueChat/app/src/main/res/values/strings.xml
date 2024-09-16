@@ -1,0 +1,10 @@
+<resources>
+    <string name="type_here">Type a message…</string>
+    <string name="send">SEND</string>
+    <string name="app_name">BlueChat</string>
+    <string name="str_menu_search_devices" />
+    <string name="str_menu_bluetooth_on" />
+    <string name="str_paired_devices">Paired Devices</string>
+    <string name="str_available_devices">Available Devices</string>
+    <string name="str_menu_scan_devices">Scan Devices</string>
+</resources>
